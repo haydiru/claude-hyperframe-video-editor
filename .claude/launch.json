@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["hyperframes", "preview", "video-projects/claude-edit-intro", "--port", "3010", "--force-new"],
       "port": 3010
+    },
+    {
+      "name": "studio-talking-head-c025",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["hyperframes", "preview", "video-projects/talking-head-c025", "--port", "3012", "--force-new", "--no-open"],
+      "port": 3012
     }
   ]
 }

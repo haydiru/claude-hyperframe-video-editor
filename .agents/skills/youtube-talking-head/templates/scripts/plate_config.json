@@ -1,0 +1,87 @@
+{
+  "out_w": 2560,
+  "out_h": 1440,
+  "crop": {
+    "x": 430,
+    "y": 280,
+    "w": 3340,
+    "h": 1878
+  },
+  "downsample_ratio": 0.3,
+  "matte": {
+    "clip_low": 0.06,
+    "clip_high": 0.92,
+    "gamma": 1.0,
+    "core": 0.93,
+    "extend_px": 7,
+    "choke_px": 1,
+    "core_erode_px": 3
+  },
+  "grade": {
+    "wb_gains": [
+      1.0,
+      1.15,
+      2.65
+    ],
+    "exposure_ev": -0.95,
+    "contrast": 1.4,
+    "shoulder": 0.55,
+    "saturation": 0.92,
+    "black_lift": 0.0,
+    "shadow_tint": [
+      -0.012,
+      0.01,
+      0.02
+    ],
+    "neutral_darken": {
+      "chroma": 0.1,
+      "amount": 0.38
+    }
+  },
+  "light_wrap": 0.08,
+  "finish": {
+    "gamma": 1.0,
+    "grain_bg": 0.006,
+    "grain_fg": 0.002
+  },
+  "garbage_polys": [],
+  "chair_zones": [
+    {
+      "name": "chair_l",
+      "box": [
+        740,
+        740,
+        1000,
+        980
+      ]
+    },
+    {
+      "name": "chair_r",
+      "box": [
+        1540,
+        740,
+        1800,
+        980
+      ]
+    }
+  ],
+  "chair_key": {
+    "diff_lo": 0.05,
+    "diff_hi": 0.11,
+    "warm_lo": 0.1,
+    "warm_hi": 0.14,
+    "grow": 0,
+    "luma_lo": 0.18,
+    "luma_hi": 0.24
+  },
+  "rim": {
+    "color": [
+      1.0,
+      0.66,
+      0.38
+    ],
+    "strength": 0.22,
+    "left": 0.35,
+    "right": 1.0
+  }
+}

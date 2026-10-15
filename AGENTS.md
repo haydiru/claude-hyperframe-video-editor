@@ -16,10 +16,13 @@ document loading defaults. Work locally unless the user requests subagents.
 
 Read `README.md` for installation and `docs/WORKFLOW.md` for a complete edit.
 Use `edit-video` to coordinate transcription, cuts, design, and verification.
+When the user asks to edit a talking-head video for their YouTube channel, load
+`youtube-talking-head` first: it holds their approved style and wins on style.
 For one stage, load the matching local skill:
 
 | Need | Skill |
 | --- | --- |
+| This channel's talking-head YouTube edits (approved house style) | `youtube-talking-head` |
 | Reels, Shorts, and short advertisements | `short-form-edit` |
 | Motion-design showreels and brand reels cut to music | `motion-showreel` |
 | Existing May Shorts example maintenance | `short-form-video` |
